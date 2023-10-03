@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+
+section{
+  padding: 100px 200px;
+}
+
+/* main here */
+
+.main{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5rem;
+}
+
+.main .content .main-spark .today-btn{
+  border: 2px solid black;
+  color: #FFF;
+  background-color: #000;
+  border-radius: 30px;
+  width: 8rem;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 2.5rem;
+  left: 6rem;
+}
+
+.main .content .main-spark .today-btn:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.main .content .main-spark{
+  position: relative;
+  bottom: 64rem;
+  right: 2rem;
+}
+
+.main .content .img1{
+  position: relative;
+  width: 60%;
+  height: 60%;
+  bottom: 1rem;
+  right: 30rem;
+  border-radius: 20px;
+}
+
+.main .content .img2{
+  position: relative;
+  width: 70%;
+  height: 70%;
+  top: 3rem;
+  right: 30rem;
+  border-radius: 20px;
+}
+
+.main .content .img3{
+  position: relative;
+  bottom: 29rem;
+  width: 60%;
+  height: 60%;
+  left: 32.5rem;
+  border-radius: 20px;
+}
+
+.main .content .img4{
+  position: relative;
+  width: 70%;
+  height: 70%;
+  bottom: 24rem;
+  left: 30rem;
+  border-radius: 20px;
+}
+
+.main .content .img5{
+  border-radius: 20px;
+  height: 50%;
+  width: 50%;
+  position: relative;
+  bottom: 34rem;
+  left: 1.6rem;
+}
+
+.icons-com{
+  display: flex;
+  position: relative;
+  padding: 0 4rem;
+  left: 10rem;
+  bottom: 45rem;
+}
+
+
+.main .content h1{
+  color: #000000;
+  font-size: 2.5rem;
+  font-weight: 400;
+  position: relative;
+}
+
+.main .content h2{
+  color: #646363;
+  font-size: 1rem;
+  font-weight: 300;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .content h2 .t1{
+  position: relative;
+  right: 1rem;
+}
+
+
+/* header here */
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  z-index: 999;
+  justify-content: center;
+  padding: 10px 20px;
+  transition: 0.5s ease;
+}
+
+header.sticky{
+  background: rgb(255, 255, 255);
+  opacity: 0.5;
+  padding: 10px 20px;
+}
+
+header .brand{
+  color: #000000;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  position: absolute;
+  left: 30px;
+}
+
+header .navigation{
+  position: relative;
+}
+
+header .navigation a{
+  color: #000000;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px; 
+}
+
+.signin{
+  border-radius: 40px;
+  border: 2px solid black;
+  justify-content: end;
+  position: relative;
+  left: 450px;
+  height: 2rem;
+  width: 5rem;
+}
+
+.signin:hover{
+  background-color: #000000;
+  color: white;
+}
+
+/* body here */
+
+.title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-title{
+  position: relative;
+  color: black;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+    
